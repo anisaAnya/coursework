@@ -6,7 +6,7 @@ Java Script и Python. Такая архитектура избыточна дл
 Папка CourseWork содержит в себе папки 6 модулей программы: сервер конфигураций, eureca клиент, eureka сервер, модуль связи с 
 базой данных, rabbit консюмер, пайтон модуль-классификатор. Схема взаимодействия модулей описана на рисунке.
 
-![Image alt](https://github.com/anisaAnya/repository/coursework/new/master/scheme.png
+![Image alt](https://github.com/anisaAnya/coursework/blob/master/scheme.png)
 
 В проекте используется база данных MySQL. 
 
