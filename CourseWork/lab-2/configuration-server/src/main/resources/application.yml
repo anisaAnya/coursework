@@ -1,0 +1,23 @@
+server:
+  port: 9898
+
+spring:
+  profiles:
+    active: native
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: ${HOME}/Labs/config-lab-3
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:7777/eureka
+  instance:
+    metadata-map:
+      instance-id: ${spring.application.name}:${server.port}
